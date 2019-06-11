@@ -3,6 +3,12 @@ import './hello-lit.js';
 import { SharedStyles } from './SharedStyles.js';
 
 class MyApp extends LitElement {
+  static get properties() {
+    return {
+      author: { type: Object },
+      items: { type: Array },
+    };
+  }  
   render(){
     const name = 'LitElement';
     
