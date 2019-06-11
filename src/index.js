@@ -3,11 +3,7 @@ import './hello-lit.js';
 import { SharedStyles } from './SharedStyles.js';
 
 class MyApp extends LitElement {
-  static get properties() {
-    return {
-      name: { type: String }
-    }
-  }
+
   constructor() {
     super();
     this.author = { name: 'Gooloan', logo: 'http://www.myfreephotoshop.com/wp-content/uploads/2013/08/669.jpg' };
