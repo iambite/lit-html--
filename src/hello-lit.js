@@ -11,6 +11,7 @@ class HelloLit extends LitElement {
     return html`
       <img src="${this.author.logo}" alt="${this.author.name}">   
       <p>${this.author.name}</p>
+      
       <div>${this.items.map(item => html`
         <li>
           <img src="${item.image}" alt="${item.title}">
