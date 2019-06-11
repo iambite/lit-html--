@@ -1,0 +1,10 @@
+{
+  "name": "lit-html",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@polymer/lit-element": "^0.6.4",
+    "@webcomponents/webcomponentsjs": "^2.2.1",
+    "lit-html": "^0.14.0"
+  }
+}
